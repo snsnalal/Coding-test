@@ -1,2 +1,2 @@
 # Coding-test
-소수인지 판별 ./1.java
+소수인지 판별 [link](./1.java)
