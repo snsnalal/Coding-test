@@ -16,13 +16,15 @@ class Solution {
                     {
                         last = st.peek();
                     }
-                    int now = st.push(board[j][i-1]);
                     
-                    if(last == now)
+                    if(last == board[j][i-1])
                     {
                         st.pop();
-                        st.pop();
                         answer++;
+                    }
+                    else
+                    {
+                        st.push(board[j][i-1]);
                     }
                     
                     board[j][i-1] = 0;                   
